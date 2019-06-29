@@ -1,0 +1,30 @@
+Before Creating superuser migrate the run the migrate command for migrate the table
+
+ python manage.py migrate
+
+To create the superuser run the following command
+
+python3 manage.py createsuperuser
+
+
+way to add the row in tha database table Employee
+
+from django.contrib.auth.models import User
+from blog.models import Employee
+         user = User.objects.get(username='admin') admin is superuser for the database
+         post = Employee(title='Another post',
+           slug='another-post',
+           body='Post body.',
+           author=user)
+         post.save()
+here post is the instance of database
+to save the record we can wrie 
+
+We have seen how to create an object in memory first and
+then persist it to the database, but we can also create the object and
+persist it into the database in a single operation using the create()
+method, as follows:
+
+
+Post.objects.create(title='One more post', slug='one-more-post', bo
+
