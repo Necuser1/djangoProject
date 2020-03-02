@@ -1,306 +1,385 @@
-<!DOCTYPE HTML>
-{%load staticfiles%}
+<!DOCTYPE HTML> {%load staticfiles%}
 <html>
-  <head>
+
+<head>
     <title></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-  .searchContainer {
-  display: inline-flex;
-  flex: 1 1 300px;
-  position: relative;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-}
+        .searchContainer {
+            display: inline-flex;
+            flex: 1 1 300px;
+            position: relative;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .bg-dark {
+            background-color: #007B !important;
+        }
+        
+        .dateBox {
+            width: 300px;
+        }
+        
+        .searchIcon {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem;
+        }
+        
+        .searchBox {
+            border: 0;
+            padding: 0.5rem 0.5rem 0.5rem 0;
+            border-right: 1px solid #ccc;
+            flex: 1;
+        }
+        
+        .figure-img {
+            border-radius: 50% !important;
+        }
+        
+        .searchButton {
+            background: #538AC5;
+            border: 0;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 0;
+        }
+        
+        .imagebox {
+            margin-top: 60px;
+        }
+        
+        .imagerow1 {
+            margin-top: 40px;
+        }
+        
+        .contactusbox {
+            margin-top: 60px;
+        }
+        
+        .countrybox {
+            margin-top: 60px;
+        }
+        
+        .headig {
+            color: rgb(0, 35, 75);
+            font: 36px "sharp-sans-bold", Arial, sans-serif;
+        }
+        
+        .jumbotron {
+            width: 100%;
+        }
+        
+        .links {
+            color: white;
+        }
+        
+        a :hover {
+            color: white;
+            text-decoration: none important;
+        }
+        
+        .h-divider {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            height: 1px;
+            width: 60%;
+            border-top: 1px solid #ccc;
+        }
+        
+        .header1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
 
-.dateBox {
-  width: 300px;
-}
-.searchIcon {
-  padding: 0.5rem;
-}
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">user
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                    <strong>LOGO</strong>
+                </a>
+                <nav class=" nav align-items-right">
+                    <a href="#" class="links align-items-right nav-link">
+                        doctors  
+                    </a>
+                    <li class="nav-item dropdown">
+                        <a class="links nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              user
+                            </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Log in</a>
+                            <a class="dropdown-item" href="#">Sign up</a>
+                        </div>
+                    </li>
+                </nav>
 
-.searchBox {
-  border: 0;
-  padding: 0.5rem 0.5rem 0.5rem 0;
-  border-right: 1px solid #ccc;
-  flex: 1;
-}
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="container3" style="margin-top:15px">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Find Doctors in your network</h2>
+                </div>
+            </div>
+            <div class="row">
 
-.searchButton {
-  background: #538AC5;
-  border: 0;
-  color: white;
-  padding: 0.5rem;
-  border-radius: 0;
-}
+                <div class="col-sm-12">
 
-
-.imagebox {
-    margin-top:60px;
-}
-.imagerow1 {
-    margin-top:40px;
-   }
- .contactusbox {
-    margin-top:60px;
- }
- .countrybox {
-    margin-top:60px;
- }
- .headig {
-   color:rgb(0, 35, 75);
-   font: 36px "sharp-sans-bold", Arial, sans-serif;
- }
-  </style>
-  </head>
-  <body>
-      <div class="container">
-          <div>
-             <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
-             <div class="container">
-                 <a class="navbar-brand" href="#">
-                      <img src="http://placehold.it/150x50?text=Logo" class="rounded" alt="...">
-                 </a>
-                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-                 </button>
-                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                     <ul class="navbar-nav ml-auto">
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">DOCTOR</a>
-                             </li>
-                         <li class="nav-item">
-                              <!--  <a class="nav-link" href="#">USER</a>-->
-                             <li class="dropdown">
-                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">USER
-                                     <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                         <li><a href="#">Page 1-1</a></li>
-                                            <li><a href="#">Page 1-2</a></li>
-                                            <li><a href="#">Page 1-3</a></li>
-                                        </ul>
-                                </li>
-                         </li>
-                  </ul>
-              </div>
-          </div>
-         </nav>
-          </div>
-          <div class="container3" style="margin-top:50px">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <form >
-                                   <div class="searchContainer">
-                                        <i class="fa fa-search searchIcon"></i>
-                                         <input class="searchBox" type="search" name="search" placeholder="Search..." size="35">
-                                         <i class="fa fa-map-marker searchIcon"></i>
-                                         <input class="searchBox" type="search" name="search" placeholder="Search..." size="35">
-                                         <i class="fa fa-search searchIcon"></i>
-                                         <input class="searchBox dateBox" type="date" name="date" placeholder="Search..." size="35">
-
-                                    </div>
+                    <form>
+                        <div class="searchContainer">
+                            <i class="fa fa-search searchIcon"></i>
+                            <input class="searchBox" type="search" name="search" placeholder="Search..." size="35">
+                            <i class="fa fa-map-marker searchIcon"></i>
+                            <input class="searchBox" type="location" name="location" placeholder="location..." size="35">
+                            <i class="fa fa-calendar searchIcon"></i>
+                            <input class="searchBox dateBox" type="date" name="date" placeholder="date..." size="35">
+                            <form class="form-inline">
+                                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fa fa-search searchIcon"></i></button>
                             </form>
                         </div>
-                    </div>
-          </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
-          <!--Doctor image  -->
-        <div class="container1 imagebox" >
-			<div class="row">
-					<div class=col-sm-12>
-							<h3>This is neeraj srivastav</h3>
-					</div>
-			</div>
+        <!--Doctor image  -->
+        <div class="container1 imagebox">
+            <div class="row">
+                <div class=col-sm-12>
+                    <h3>This is neeraj srivastav</h3>
+                </div>
+            </div>
             <!--image row1 start-->
-			<div class="row imagerow1">
-					<div class="col-sm-3">
-					<figure class="figure">
-                                <img src="..." class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                                <figcaption class="figure-caption">A caption for the above image.</figcaption>
-                            </figure>
-					</div>
-					<div class="col-sm-3">
-						<figure class="figure">
-                                <img src="..." class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                                <figcaption class="figure-caption">A caption for the above image.</figcaption>
-                            </figure>
-					</div>
-                     <div class="col-sm-3">
-						<figure class="figure">
-                                <img src="..." class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                                <figcaption class="figure-caption">A caption for the above image.</figcaption>
-                            </figure>
-					</div>
-                    <div class="col-sm-3">
-						<figure class="figure">
-                                <img src="..." class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                                <figcaption class="figure-caption">A caption for the above image.</figcaption>
-                            </figure>
-					</div>
-			</div>
-                <!-- image row1 end-->
-                        <!--image row2 start-->
-			<div class="row imagerow1">
-					<div class="col-sm-3">
-					<figure class="figure">
-                                <img src="..." class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                                <figcaption class="figure-caption">A caption for the above image.</figcaption>
-                            </figure>
-					</div>
-					<div class="col-sm-3">
-						<figure class="figure">
-                                <img src="..." class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                                <figcaption class="figure-caption">A caption for the above image.</figcaption>
-                            </figure>
-					</div>
-                					<div class="col-sm-3">
-						<figure class="figure">
-                                <img src="..." class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                                <figcaption class="figure-caption">A caption for the above image.</figcaption>
-                            </figure>
-					</div>
-                    <div class="col-sm-3">
-						<figure class="figure">
-                                <img src="..." class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                                <figcaption class="figure-caption">A caption for the above image.</figcaption>
-                            </figure>
-					</div>
-			</div>
+            <div class="row imagerow1">
+                <div class="col-sm-3">
+                    <figure class="figure">
+                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3">
+                    <figure class="figure">
+                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3">
+                    <figure class="figure">
+                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3">
+                    <figure class="figure">
+                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!-- image row1 end-->
+            <!--image row2 start-->
+            <div class="row imagerow1">
+                <div class="col-sm-3">
+                    <figure class="figure">
+                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3">
+                    <figure class="figure">
+                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3">
+                    <figure class="figure">
+                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3">
+                    <figure class="figure">
+                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+            </div>
             <!-- image row2 end-->
-         </div>
-          <div class="container3 countrybox">
-              <div class="row">
-                  <div class="col-sm-12">
-                      <h3>Find doctors and dentists by...</h3>
-                  </div>
-               </div>
-               <div class="row">
-                   <div class="col-sm-6">
-                       <ul style="list-style-type:none;">
-                           <li>New yark</li>
-                           <li>India</li>
-                           <li>brazil</li>
-                           <li>London</li>
-                           <li>xyz</li>
-                           <li>abc</li>
-                           <li>pqr</li>
-                           <li>lmb</li>
-                           <li>dbhhj</li>
-                           <li>ViewAll</li>
-                       </ul>
-                   </div>
-                   <div class="col-sm-6">
-                       <ul style="list-style-type:none;">
-                           <li>New yark</li>
-                           <li>India</li>
-                           <li>brazil</li>
-                           <li>London</li>
-                           <li>xyz</li>
-                           <li>abc</li>
-                           <li>pqr</li>
-                           <li>lmb</li>
-                           <li>dbhhj</li>
-                           <li>ViewAll</li>
-                       </ul>
-                   </div>
-              </div>
-          </div>
-          <!--Doctor image  end-->
-          <!--context up box start-->
-          <div class="containet4 contactusbox">
-              <div class="row">
-                  <div class="col-sm-2">
-                      <ul style="list-style-type:none;">
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                           <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-2">
-                      <ul style="list-style-type:none;">
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                           <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-2">
-                      <ul style="list-style-type:none;">
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                           <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-2">
-                      <ul style="list-style-type:none;">
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                           <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-2">
-                      <ul style="list-style-type:none;">
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                           <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-2">
-                      <ul style="list-style-type:none;">
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                           <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>ContactUs</li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-          <!-- context us box end-->
-      </div>
-  </body>
+        </div>
+
+
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+
+
+        <div class="container3 countrybox">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Find doctors and dentists by...</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row header1">
+                        <div class="col-sm-1">
+                            <i class="fa fa-map-marker fa-2x searchIcon"></i>
+                        </div>
+                        <div class="col-sm-10">
+                            Cities
+                        </div>
+
+                    </div>
+                    <div class="h-divider"></div>
+                    <ul style="list-style-type:none;">
+                        <li>New yark</li>
+                        <li>India</li>
+                        <li>brazil</li>
+                        <li>London</li>
+                        <li>xyz</li>
+                        <li>abc</li>
+                        <li>pqr</li>
+                        <li>lmb</li>
+                        <li>dbhhj</li>
+                        <li>ViewAll</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row header1">
+                        <div class="col-sm-1">
+                            <i class="fa fa-user-md fa-2x searchIcon"></i>
+                        </div>
+                        <div class="col-sm-10">
+                            Specility
+                        </div>
+
+                    </div>
+                    <div class="h-divider"></div>
+                    <ul style="list-style-type:none;">
+                        <li>New yark</li>
+                        <li>India</li>
+                        <li>brazil</li>
+                        <li>London</li>
+                        <li>xyz</li>
+                        <li>abc</li>
+                        <li>pqr</li>
+                        <li>lmb</li>
+                        <li>dbhhj</li>
+                        <li>ViewAll</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Doctor image  end-->
+        <!--context up box start-->
+        <div class="containet4 contactusbox">
+            <div class="row">
+                <div class="col-sm-2">
+                    <ul style="list-style-type:none;">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul style="list-style-type:none;">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul style="list-style-type:none;">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul style="list-style-type:none;">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul style="list-style-type:none;">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul style="list-style-type:none;">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>ContactUs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- context us box end-->
+    </div>
+</body>
 <html>
-
-
-
