@@ -1,6 +1,5 @@
-<!DOCTYPE HTML> {%load staticfiles%}
-<html>
-
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <title></title>
     <meta charset="utf-8">
@@ -19,32 +18,32 @@
             border-radius: 5px;
             overflow: hidden;
         }
-        
+
         .bg-dark {
-            background-color: #007B !important;
+            background-color: #003666 !important;
         }
-        
+
         .dateBox {
             width: 300px;
         }
-        
+
         .searchIcon {
             display: flex;
             align-items: center;
             padding: 0.5rem;
         }
-        
+
         .searchBox {
             border: 0;
             padding: 0.5rem 0.5rem 0.5rem 0;
             border-right: 1px solid #ccc;
             flex: 1;
         }
-        
+
         .figure-img {
             border-radius: 50% !important;
         }
-        
+
         .searchButton {
             background: #538AC5;
             border: 0;
@@ -52,41 +51,41 @@
             padding: 0.5rem;
             border-radius: 0;
         }
-        
+
         .imagebox {
             margin-top: 60px;
         }
-        
+
         .imagerow1 {
             margin-top: 40px;
         }
-        
+
         .contactusbox {
             margin-top: 60px;
         }
-        
+
         .countrybox {
             margin-top: 60px;
         }
-        
+
         .headig {
             color: rgb(0, 35, 75);
             font: 36px "sharp-sans-bold", Arial, sans-serif;
         }
-        
+
         .jumbotron {
             width: 100%;
         }
-        
+
         .links {
             color: white;
         }
-        
+
         a :hover {
             color: white;
             text-decoration: none important;
         }
-        
+
         .h-divider {
             margin-top: 5px;
             margin-bottom: 5px;
@@ -94,7 +93,7 @@
             width: 60%;
             border-top: 1px solid #ccc;
         }
-        
+
         .header1 {
             display: flex;
             justify-content: center;
@@ -119,7 +118,7 @@
                 </a>
                 <nav class=" nav align-items-right">
                     <a href="#" class="links align-items-right nav-link">
-                        doctors  
+                        doctors
                     </a>
                     <li class="nav-item dropdown">
                         <a class="links nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -136,8 +135,8 @@
         </div>
     </header>
     <div class="container">
-        <div class="container3" style="margin-top:15px">
-            <div class="row">
+        <div class="container3" style="margin-top:15px;">
+            <div class="row" style="margin-top:15px;">
                 <div class="col-sm-12">
                     <h2>Find Doctors in your network</h2>
                 </div>
@@ -167,32 +166,32 @@
         <div class="container1 imagebox">
             <div class="row">
                 <div class=col-sm-12>
-                    <h3>This is neeraj srivastav</h3>
+                    <h3>Top specialties on Zocdoc:</h3>
                 </div>
             </div>
             <!--image row1 start-->
             <div class="row imagerow1">
                 <div class="col-sm-3">
                     <figure class="figure">
-                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <a href=""><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3">
+                    <a class="figure">
+                        <a href=""></a> <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
                         <figcaption class="figure-caption">A caption for the above image.</figcaption>
                     </figure>
                 </div>
                 <div class="col-sm-3">
                     <figure class="figure">
-                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <a href="" ><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
                         <figcaption class="figure-caption">A caption for the above image.</figcaption>
                     </figure>
                 </div>
                 <div class="col-sm-3">
                     <figure class="figure">
-                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
-                    </figure>
-                </div>
-                <div class="col-sm-3">
-                    <figure class="figure">
-                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <a href=""><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
                         <figcaption class="figure-caption">A caption for the above image.</figcaption>
                     </figure>
                 </div>
@@ -202,25 +201,25 @@
             <div class="row imagerow1">
                 <div class="col-sm-3">
                     <figure class="figure">
-                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <a href=""><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
                         <figcaption class="figure-caption">A caption for the above image.</figcaption>
                     </figure>
                 </div>
                 <div class="col-sm-3">
                     <figure class="figure">
-                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <a href=""><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3">
+                    <a class="figure">
+                        <a href=""></a><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
                         <figcaption class="figure-caption">A caption for the above image.</figcaption>
                     </figure>
                 </div>
                 <div class="col-sm-3">
                     <figure class="figure">
-                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
-                    </figure>
-                </div>
-                <div class="col-sm-3">
-                    <figure class="figure">
-                        <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <a href=""><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
                         <figcaption class="figure-caption">A caption for the above image.</figcaption>
                     </figure>
                 </div>
@@ -237,7 +236,15 @@
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
         </div>
 
-
+        <!--second jumbotron-->
+          <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+        <!-- end of second jumbotron-->
         <div class="container3 countrybox">
             <div class="row">
                 <div class="col-sm-12">
@@ -257,16 +264,26 @@
                     </div>
                     <div class="h-divider"></div>
                     <ul style="list-style-type:none;">
-                        <li>New yark</li>
-                        <li>India</li>
-                        <li>brazil</li>
-                        <li>London</li>
-                        <li>xyz</li>
-                        <li>abc</li>
-                        <li>pqr</li>
-                        <li>lmb</li>
-                        <li>dbhhj</li>
-                        <li>ViewAll</li>
+                        <li><a href="">New York</a></li>
+                        <li><a href="">Brooklyn</a></li>
+                        <li><a href="">Philadelphia</a></li>
+                        <li><a href="">Seattle</a></li>
+                        <li><a href="">Jersey City</a></li>
+                        <li><a href="">Duluth</a></li>
+                        <li><a href="">Dunwoody</a></li>
+                        <li><a href="">Atlanta</a></li>
+                        <li><a href="">Hoboken</a></li>
+                        <li><a href="">Lakewood, CO</a></li>
+                        <li><a href="">Washington, DC</a></li>
+                        <li><a href="">Chicago</a></li>
+                        <li><a href="">Houston</a></li>
+                        <li><a href="">San Antonio</a></li>
+                        <li><a href="">Austin</a></li>
+                        <li><a href="">Queens</a></li>
+                        <li><a href="">Denver</a></li>
+                        <li><a href="">Dallas</a></li>
+                        <li><a href="">Long Island</a></li>
+                        <li><a href="">view all</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6">
@@ -281,105 +298,126 @@
                     </div>
                     <div class="h-divider"></div>
                     <ul style="list-style-type:none;">
-                        <li>New yark</li>
-                        <li>India</li>
-                        <li>brazil</li>
-                        <li>London</li>
-                        <li>xyz</li>
-                        <li>abc</li>
-                        <li>pqr</li>
-                        <li>lmb</li>
-                        <li>dbhhj</li>
-                        <li>ViewAll</li>
+                        <li"><a href="">Primary Care Doctor</a></li>
+                        <li><a href="">Dermatologist</a></li>
+                        <li><a href="">OB-GYN</a></li>
+                        <li><a href="">Dentist</a></li>
+                        <li><a href="">Psychiatrist</a></li>
+                        <li><a href="">Ear, Nose & Throat Doctor</a></li>
+                        <li><a href="">Podiatrist</a></li>
+                        <li><a href="">Urologist</a></li>
+                        <li><a href="">Gastroenterologist</a></li>
+                        <li><a href="">Cardiologist</a></li>
+                        <li><a href="">Neurologist</a></li>
+                        <li><a href="">Orthopedic Surgeon</a></li>
+                        <li><a href="">Ophthalmologist</a></li>
+                        <li><a href="">Pediatrician</a></li>
+                        <li><a href="">Optometrist</a></li>
+                        <li><a href="">Eye Doctor</a></li>
+                        <li><a href="">Therapist Counselor</a></li>
+                        <li><a href="">Physical Therapist</a></li>
+                        <li><a href="">Psychologist</a></li>
+                        <li><a href="">view all</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <!--Doctor image  end-->
         <!--context up box start-->
-        <div class="containet4 contactusbox">
-            <div class="row">
-                <div class="col-sm-2">
-                    <ul style="list-style-type:none;">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <ul style="list-style-type:none;">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <ul style="list-style-type:none;">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <ul style="list-style-type:none;">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <ul style="list-style-type:none;">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <ul style="list-style-type:none;">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>ContactUs</li>
+    </div>
+
+    <!--Top header start-->
+        <div class="containet4 contactusbox bg-dark">
+            <!--Adding data-->
+            <div class="row" style="background-color:#00cc00; height:60px;">
+                <div class="col-sm-12">
+                    <ul style="list-style-type:none; display:inline-flex; margin-top:20px;margin-left:20px;">
+                        <li><h6>Webname</h6></li>
+                        <li style="margin-left:15px; "><a href=""><h6 style="color:black;">Need help?   Visit our <strong>Knowledge base</strong></h6></a></li>
                     </ul>
                 </div>
             </div>
+            <!---end adding data-->
+            <div class="row">
+                <div class="col-sm-2">
+                    <ul style="list-style-type:none; margin-top:15px;">
+                        <li style="color:#00cc00;">Zocdoc</li>
+                        <a href=""><li style="color:white;">About</li><a>
+                        <a href="" ><li style="color:white;">ContactUs</li></a>
+                        <a href=""><li style="color:white;">Home</li></a>
+                        <a href=""><li style="color:white;">About</li></a>
+                         <a href=""><li style="color:white;">ContactUs</li></a>
+                        <a href=""><li style="color:white;">Home</li></a>
+                        <a href=""><li style="color:white;">About</li></a>
+                        <a href=""><li style="color:white;">ContactUs</li></a>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul style="list-style-type:none; margin-top:15px;">
+                        <li style="color:#00cc00;">Look up your doctor</li>
+                        <li style="color:white;">About</li>
+                        <li style="color:white;">ContactUs</li>
+                        <li style="color:white;">Home</li>
+                        <li style="color:white;">About</li>
+                        <li style="color:#00cc00;">Search by</li>
+                        <li style="color:white;">Home</li>
+                        <li style="color:white;">About</li>
+                        <li style="color:white;">ContactUs</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul style="list-style-type:none; margin-top:15px;">
+                        <li style="color:#00cc00;">Cities</li>
+                        <li style="color:white;">About</li>
+                        <li style="color:white;">ContactUs</li>
+                        <li style="color:white;">Home</li>
+                        <li style="color:white;">About</li>
+                        <li style="color:white;">ContactUs</li>
+                        <li style="color:white;">Home</li>
+                        <li style="color:white;">About</li>
+                        <li style="color:white;">ContactUs</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul style="list-style-type:none;margin-top:15px;">
+                        <li style="color:#00cc00;">Specialties</li>
+                        <li style="color:white;">About</li>
+                        <li style="color:white;">ContactUs</li>
+                        <li style="color:white;">Home</li>
+                        <li style="color:white;">About</li>
+                        <li style="color:white;">ContactUs</li>
+                        <li style="color:white;">Home</li>
+                        <li style="color:white;">About</li>
+                        <li style="color:white;">ContactUs</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul style="list-style-type:none; margin-top:15px;">
+                        <li style="color:#00cc00;">Are you a top </br>doctor or dentist?</li>
+                        <li style="color:white;">List your practice on Zocdoc</li>
+                        <li style="color:#00cc00;">Zocdoc for health systems</li>
+                        <li style="color:white;">Learn more</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul style="list-style-type:none; margin-top:15px;">
+                        <li style="color:white;">image</li>
+                        <li style="color:white;">image</li>
+                        <li style="color:white;">image</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="margin-top:30px">
+                <ul style="display:inline-flex; list-style-type:none;">
+                    <li style="color:white; margin-left:15px">© 2020 Zocdoc, Inc.</li>
+                    <li style="color:white; margin-left:15px">Privacy</li>
+                    <li style="color:white; margin-left:15px">Terms of use</li>
+                    <li style="color:white; margin-left:15px">Do not sell my personal information</li>
+                </ul>
+            </div>
         </div>
         <!-- context us box end-->
-    </div>
+    <!--</div>-->
 </body>
 <html>
+
