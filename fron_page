@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+{% load staticfiles %}
 <html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <title></title>
@@ -62,6 +63,7 @@
 
         .contactusbox {
             margin-top: 60px;
+            margin-right:0px;
         }
 
         .countrybox {
@@ -98,6 +100,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        .circle {
+            border-radius: 70%;
+            width: 120px;
+            height: 120px;
         }
     </style>
 </head>
@@ -172,63 +179,77 @@
             <!--image row1 start-->
             <div class="row imagerow1">
                 <div class="col-sm-3">
+                    <div class="circle" style="background-color:rgba(0, 227, 250, 0.7);">
                     <figure class="figure">
-                        <a href=""><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
-                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                        <a href=""><img src="{%static "testapp/images/1.svg" %}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
+                        <figcaption class="figure-caption" style="margin-left:25px; margin-top:15px;">Primary Care</figcaption>
                     </figure>
+                    </div>
                 </div>
                 <div class="col-sm-3">
-                    <a class="figure">
-                        <a href=""></a> <img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
-                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                    <div class="circle" style="background-color:rgba(255, 159, 169, 0.7);">
+                    <figure class="figure">
+                        <a href=""></a> <img src="{%static "testapp/images/2.svg" %}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
+                        <figcaption class="figure-caption" style="margin-left:30px; margin-top:15px;">OBGYN</figcaption>
                     </figure>
+                        </div>
                 </div>
                 <div class="col-sm-3">
+                    <div class="circle" style="background-color:rgba(215, 177, 255, 0.7);">
                     <figure class="figure">
-                        <a href="" ><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
-                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                        <a href="" ><img src="{%static "testapp/images/3.svg" %}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
+                        <figcaption class="figure-caption" style="margin-left:30px; margin-top:15px;">Dentist</figcaption>
                     </figure>
+                    </div>
                 </div>
                 <div class="col-sm-3">
+                    <div class="circle" style="background-color:rgba(255, 100, 115, 0.7);">
                     <figure class="figure">
-                        <a href=""><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
-                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                        <a href=""><img src="{%static "testapp/images/4.svg" %}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
+                        <figcaption class="figure-caption" style="margin-left:30px; margin-top:15px;">Dermitologist</figcaption>
                     </figure>
+                    </div>
                 </div>
             </div>
             <!-- image row1 end-->
             <!--image row2 start-->
-            <div class="row imagerow1">
+            <div class="row imagerow1" style="margin-top:100px;">
                 <div class="col-sm-3">
+                    <div class="circle" style="background-color:rgba(0, 230, 175, 0.7);">
                     <figure class="figure">
-                        <a href=""><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
-                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                        <a href=""><img src="{%static "testapp/images/5.svg" %}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
+                        <figcaption class="figure-caption" style="margin-left:30px; margin-top:15px;">Psychiatrist</figcaption>
                     </figure>
+                        </div>
                 </div>
                 <div class="col-sm-3">
+                    <div class="circle" style="background-color:rgba(255, 240, 75, 0.7);">
                     <figure class="figure">
-                        <a href=""><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
-                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                        <a href=""><img src="{%static "testapp/images/6.svg" %}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
+                        <figcaption class="figure-caption" style="margin-left:30px; margin-top:15px;">Eye Doctor</figcaption>
                     </figure>
+                        </div>
                 </div>
                 <div class="col-sm-3">
+                    <div class="circle" style="background-color:rgba(0, 227, 250, 0.7);">
                     <a class="figure">
-                        <a href=""></a><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
-                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                        <a href=""></a><img src="{%static "testapp/images/7.svg" %}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
+                        <figcaption class="figure-caption" style="margin-left:55px; margin-top:15px;">ENT</figcaption>
                     </figure>
+                    </div>
                 </div>
                 <div class="col-sm-3">
+                    <div class="circle" style="background-color:rgba(195, 130, 255, 0.7);">
                     <figure class="figure">
-                        <a href=""><img src="http://via.placeholder.com/100X100" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
-                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                        <a href=""><img src="{%static "testapp/images/8.svg" %}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></a>
+                        <figcaption class="figure-caption" style="margin-left:20px; margin-top:15px;">Gastroenterologist</figcaption>
                     </figure>
+                    </div>
                 </div>
             </div>
             <!-- image row2 end-->
         </div>
-
-
-        <div class="jumbotron">
+        <div class="jumbotron"style="margin-top:80px;">
             <h1 class="display-4">Hello, world!</h1>
             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
             <hr class="my-4">
@@ -338,6 +359,7 @@
                 </div>
             </div>
             <!---end adding data-->
+            <div class="container">
             <div class="row">
                 <div class="col-sm-2">
                     <ul style="list-style-type:none; margin-top:15px;">
@@ -401,11 +423,12 @@
                 </div>
                 <div class="col-sm-2">
                     <ul style="list-style-type:none; margin-top:15px;">
-                        <li style="color:white;">image</li>
+                        <li><img src="{%static "testapp/images/googleplaystore.png" %}" ></li>
                         <li style="color:white;">image</li>
                         <li style="color:white;">image</li>
                     </ul>
                 </div>
+            </div>
             </div>
             <div style="margin-top:30px">
                 <ul style="display:inline-flex; list-style-type:none;">
