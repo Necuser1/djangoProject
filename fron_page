@@ -249,22 +249,21 @@
             </div>
             <!-- image row2 end-->
         </div>
-        <div class="jumbotron"style="margin-top:80px;">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+
+    <!-- mobile image-->
+        <div class= "container5" style="margin-top:50px;background-color:#99e6ff; width:100%; height:700px;">
+            <div class="row">
+                <div class="col-sm-6" style="margin-top:100px; margin-left:100px">
+                    <img src="{%static "testapp/images/doctor.jpg" %}" height="600" width="500">
+                </div>
+                <div class="col-sm-6">
+                    <h1>Get the Zocdoc app.</h1>
+                </div>
+            </div>
         </div>
 
         <!--second jumbotron-->
-          <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </div>
         <!-- end of second jumbotron-->
         <div class="container3 countrybox">
             <div class="row">
@@ -319,7 +318,7 @@
                     </div>
                     <div class="h-divider"></div>
                     <ul style="list-style-type:none;">
-                        <li"><a href="">Primary Care Doctor</a></li>
+                        <li><a href="">Primary Care Doctor</a></li>
                         <li><a href="">Dermatologist</a></li>
                         <li><a href="">OB-GYN</a></li>
                         <li><a href="">Dentist</a></li>
@@ -350,7 +349,7 @@
     <!--Top header start-->
         <div class="containet4 contactusbox bg-dark">
             <!--Adding data-->
-            <div class="row" style="background-color:#00cc00; height:60px;">
+            <div class="row" style="background-color:yellow; height:60px;">
                 <div class="col-sm-12">
                     <ul style="list-style-type:none; display:inline-flex; margin-top:20px;margin-left:20px;">
                         <li><h6>Webname</h6></li>
